@@ -1,0 +1,11 @@
+ 
+# dolphin
+**/.directory
+
+# dev files
+*_BAK.*
+*_PRIV.*
+
+# project data files: carXML_network
+/carXML_network/server/data/*.xml
+/carXML_network/tests/data/*.xml

@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ 
+html {
+	overflow: -moz-scrollbars-vertical;
+	overflow-y: scroll;
+}
+ 
+html, body {
+	height: 100%;
+}
+ 
+img {
+	border: 0;
+}
+ 
+:focus {
+	outline: none;
+}
+ 
+div#wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 90%; 
+	background: #f0f0f0; 
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+}
+ 
+div#footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background: #dddddd;
+	border-top: 6px double gray;
+}  
