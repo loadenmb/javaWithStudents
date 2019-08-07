@@ -42,10 +42,11 @@ cd tests/ && chmod +x makeRun.sh && ./makeRun.sh
 ```
 
 ## Details
-
-client/     AWT desktop client to update server XML data via socket
-server/     HTTP server with XSLT templates and update able XML source data via TCP socket
-tests/      junit tests for server / client classes
+| directory     |  description  |
+| ------------- | ------------- |
+| client/       | AWT desktop client to update server XML data via socket | 
+| server/       | HTTP server with XSLT templates and update able XML source data via TCP socket | 
+| tests/        | junit tests for server / client classes | 
 
 Shared files between client and server are: *carXML.java* / *car.java*. They do:
 - xml (un)-marshalling
